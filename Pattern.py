@@ -26,7 +26,7 @@ class Pattern:
         # A main object for the pattern
         self.symmetry = 6
         self.angle = 0
-        self.spin = 0.25 + random()
+        self.spin = random() - 0.5
         self.children = []
         self.changes = []
         self.complexity = 4
